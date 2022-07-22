@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@700&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #181818;
+  overflow-x: hidden;
+}
+.background {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: fill;
+  filter: brightness(20%);
+  filter:drop-shadow(40%)
+}
+
+
+.headernav {
+
+  width: 100%;
+  margin-top: 0px;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+  border-radius: 0px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color:  rgba(158, 203, 133, 0.968);
+}
+
+.nav {
+  margin-left: 5%;
+  font-size: 15px;
+  list-style-type: none;
+  color: black;
+  font-family: "Press Start 2P";
+}
+.nav:first-child {
+  margin-left: 0;
+}
+.navbtn {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+}
+.ewaste {
+  color: rgba(158, 203, 133, 0.968);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 125px;
+  font-family: 'Prosto One', cursive;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 989px) {
+  .headernav {
+    width: 70%;
+  }
+}
+@media (max-width: 800) {
+  .headernav {
+    width: 100%;
+  }
+  .nav {
+    font-size: 8px;
+  }
+}
+
+image1{
+  width: -150px;
+  height: 150px;
+  position: absolute;
+  top: 85%;
+  left: 87%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+
